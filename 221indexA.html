@@ -1,0 +1,125 @@
+<!--
+221indexA.html demonstrates basic HTML
+Unpublished work (c)2013 Project Lead The Way
+CSE Activity 2.2.1 HTML5andJavaScript
+Version 12/19/2013
+-->
+
+<html>
+<head>
+</head>
+<body>
+<br>
+<table>
+	<caption>Your Results:</caption>
+	<tbody>
+<script type="text/javascript">
+  var currentTime = new Date();
+  var Month = currentTime.getMonth();
+  var Day = currentTime.getDay();
+  
+  if (Month == 1){
+  	Month = "January"
+  }
+  if (Month == 2){
+  	Month = "February"
+  }
+  if (Month == 3){
+  	Month = "March"
+  }
+  if (Month == 4){
+  	Month = "April"
+  }
+  if (Month == 5){
+  	Month = "May"
+  }
+  if (Month == 6){
+  	Month = "June"
+  }
+  if (Month == 7){
+  	Month = "July"
+  }
+  if (Month == 8){
+  	Month = "August"
+  }
+	
+	
+	
+  document.write("<b><div id='d1'>" + Month + ":" +
+   Day   + "</div></b>");
+
+
+      
+      
+      
+</script>
+
+          
+	<tr>
+		<td>
+			<img src="  pic1thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic2thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic3thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic4thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic5thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic6thumb.jpg">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="  pic7thumb.jpg">
+		</td>
+		<td>
+			<img src="  pic8thumb.jpg">
+		</td>
+		<td>
+			<img src="pic9thumb.jpg">
+		</td>
+		<td>
+			<img src="pic10thumb.jpg">
+		</td>
+		<td>
+			<img src="pic11thumb.jpg">
+		</td>
+		<td>
+			<img src="pic12thumb.jpg">
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<img src="pic13thumb.jpg">
+		</td>
+		<td>
+			<img src="pic14thumb.jpg">
+		</td>
+		<td>
+			<img src="pic15thumb.jpg">
+		</td>
+	</tr>
+	</tbody>
+</table>
+<br>
+Search the art database using the fields below.
+<form>
+	<pre>
+First Name
+<input type="text" name="firstname">
+<br>
+Last Name
+<input type="text" name="lastname">
+<br>
+<input type="submit" value="SEARCH">
+	</pre>
+</form>
+</body>
+</html>
